@@ -3,7 +3,7 @@ import React from 'react'
 // import CommentDetail from './CommentDetail'
 
 export const ApprovalCard = (props) => {
-    // console.log(props.children)
+    console.log(props.children)
     return (
         <div className='ui card'>
         <div className="contnet">{props.children}</div>

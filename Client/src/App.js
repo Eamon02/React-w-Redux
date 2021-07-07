@@ -9,10 +9,15 @@ function App() {
 			<ApprovalCard>
 			<CommentDetail image={faker.image.avatar()} author = 'sam' time="Today at 4:45PM"/>
 			</ApprovalCard>
+			<ApprovalCard>
 			<CommentDetail image={faker.image.avatar()} author = '420' time="Today at 2:45PM"/>
+			</ApprovalCard>
+			<ApprovalCard>
 			<CommentDetail image={faker.image.avatar()} author = 'beans' time="Yesterday at 1:45PM"/>
+			</ApprovalCard>
 		</div>
 	)
 }
 
 export default App;
+
